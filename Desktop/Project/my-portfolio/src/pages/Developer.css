@@ -1,0 +1,105 @@
+/* CONTAINER */
+.dev-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+/* CARD */
+.dev-card {
+  width: 340px;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+/* HOVER (SUBTLE PROFESSIONAL) */
+.dev-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+}
+
+/* HEADER */
+.dev-header {
+  margin-bottom: 15px;
+}
+
+/* IMAGE */
+.dev-img {
+  width: 120px;          /* Or whatever size you prefer */
+  height: 120px;
+  border-radius: 50%;    /* Keeps it circular */
+  object-fit: cover;     /* Important: makes the image fill the area */
+  
+  /* THIS IS THE KEY PART */
+  object-position: top;  /* Moves the focus up so your head isn't cut off */
+  
+  border: 3px solid white; /* Optional: makes it pop against the background */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+/* ROLE */
+.dev-role {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+/* BIO */
+.dev-bio {
+  font-size: 14px;
+  margin: 15px 0;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+
+/* SKILLS */
+.dev-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.dev-skills span {
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: rgba(56,189,248,0.15);
+  font-size: 12px;
+}
+
+/* LINKS */
+.dev-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dev-links a {
+  padding: 10px 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.dev-links a:hover {
+  transform: scale(1.05);
+}
+.dev-projects {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.dev-projects h4 {
+  margin-bottom: 8px;
+}
+
+.dev-projects ul {
+  padding-left: 18px;
+  font-size: 14px;
+}

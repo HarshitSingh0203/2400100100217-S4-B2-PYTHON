@@ -1,0 +1,46 @@
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+/* CARD */
+.map-card {
+  width: 500px;
+  padding: 25px;
+  border-radius: 25px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+/* HEADINGS */
+.map-card h3 {
+  letter-spacing: 2px;
+  opacity: 0.7;
+}
+
+.map-card h2 {
+  margin-bottom: 20px;
+}
+
+/* MAP FRAME */
+.map-frame {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* IFRAME */
+.map-frame iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* HOVER EFFECT */
+.map-card:hover {
+  transform: translateY(-5px);
+}

@@ -1,0 +1,54 @@
+.arm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.arm-card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+/* INPUT */
+.arm-card input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 15px;
+  background: var(--input-bg);
+  color: var(--text-color);
+}
+
+/* BUTTON */
+.arm-card button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: var(--primary);
+  color: white;
+  cursor: pointer;
+}
+
+/* RESULT */
+.result {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.is-armstrong {
+  background: rgba(34,197,94,0.2);
+  color: #22c55e;
+}
+
+.not-armstrong {
+  background: rgba(239,68,68,0.2);
+  color: #ef4444;
+}

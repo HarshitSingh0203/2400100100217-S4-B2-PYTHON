@@ -1,0 +1,55 @@
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+}
+
+/* CARD */
+.toggle-card {
+  width: 300px;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+/* SWITCH */
+.toggle-switch {
+  width: 70px;
+  height: 35px;
+  background: #475569;
+  border-radius: 50px;
+  margin: 20px auto;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* ACTIVE */
+.toggle-switch.active {
+  background: #22c55e;
+}
+
+/* CIRCLE */
+.toggle-circle {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 3px;
+  transition: 0.3s;
+}
+
+/* MOVE */
+.toggle-switch.active .toggle-circle {
+  transform: translateX(35px);
+}
+
+/* STATUS */
+.status {
+  font-weight: bold;
+  margin-top: 10px;
+}

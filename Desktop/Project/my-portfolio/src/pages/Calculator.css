@@ -1,0 +1,111 @@
+/* CONTAINER */
+.calc-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* CARD */
+.calc-card {
+  width: 320px;
+  padding: 25px;
+  border-radius: 25px;
+  text-align: center;
+  color: var(--text);
+}
+
+/* TITLE */
+.calc-card h3 {
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+/* DISPLAY */
+.calc-display {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 2rem;
+  text-align: right;
+  margin-bottom: 20px;
+  min-height: 60px;
+}
+
+/* GRID */
+.calc-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+/* BUTTON */
+.calc-buttons button {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background: var(--card);
+  color: var(--text);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* HOVER */
+.calc-buttons button:hover {
+  transform: scale(1.05);
+  background: rgba(56,189,248,0.2);
+}
+
+/* OPERATOR */
+.op {
+  background: rgba(56,189,248,0.2);
+}
+
+/* FUNCTION BUTTONS */
+.func {
+  background: rgba(239,68,68,0.2);
+}
+
+/* ZERO */
+.zero {
+  grid-column: span 2;
+}
+
+/* EQUAL */
+.equal {
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+}
+/* DARK */
+.dark .calc-card {
+  background: var(--card);
+}
+
+/* OCEAN */
+.ocean .calc-card {
+  background: rgba(0,0,0,0.2);
+}
+
+/* SUNSET */
+.sunset .calc-card {
+  background: rgba(0,0,0,0.2);
+}
+
+/* LIGHT */
+.light .calc-card {
+  background: white;
+  color: black;
+}
+
+/* PASTEL */
+.pastel .calc-card {
+  background: var(--card);
+  color: black;
+} 
+.dark .calc-buttons button,
+.ocean .calc-buttons button,
+.sunset .calc-buttons button {
+  background: var(--card);
+  color: var(--text);
+}

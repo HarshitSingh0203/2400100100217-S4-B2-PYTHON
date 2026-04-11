@@ -1,0 +1,19 @@
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.user-section span {
+  font-size: 14px;
+}
+
+.user-section button {
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: none;
+  background: #38bdf8;
+  color: white;
+  cursor: pointer;
+}

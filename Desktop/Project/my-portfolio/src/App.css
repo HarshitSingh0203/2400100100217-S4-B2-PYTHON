@@ -1,0 +1,86 @@
+/* =========================
+   APP ROOT
+========================= */
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+.navbar {
+  height: 70px;
+  margin: 10px;
+  padding: 0 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* NAV LINKS */
+.nav-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* =========================
+   CONTENT (ONLY SCROLL HERE)
+========================= */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/* HOME TEXT */
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* =========================
+   THEMES
+========================= */
+
+/* DARK */
+.dark {
+  background: linear-gradient(135deg, #020617, #0f172a);
+  color: var(--text);
+}
+
+/* OCEAN */
+.ocean {
+  background: linear-gradient(135deg, #020617, #0ea5e9, #164e63);
+  color: var(--text);
+}
+
+/* SUNSET */
+.sunset {
+  background: linear-gradient(135deg, #7c2d12, #fb7185, #f97316);
+  color: var(--text);
+}
+
+/* LIGHT */
+.light {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+/* PASTEL */
+.pastel {
+  background: #fbcfe8;
+  color: #1e293b;
+}

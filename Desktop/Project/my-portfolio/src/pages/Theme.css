@@ -1,0 +1,51 @@
+.theme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.theme-card {
+  width: 380px;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.theme-card h3 {
+  opacity: 0.7;
+  letter-spacing: 2px;
+}
+
+.theme-card h2 {
+  margin: 10px 0 20px;
+}
+
+.active-theme {
+  background: var(--input);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.theme-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.theme-buttons button {
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.theme-buttons button:hover {
+  transform: scale(1.05);
+}
+
+.active-btn {
+  outline: 2px solid var(--primary);
+  transform: scale(1.05);
+}

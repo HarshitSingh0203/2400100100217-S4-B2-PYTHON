@@ -1,12 +1,43 @@
-# Hi, I'm Harshit 👋
+# College Project Repository
 
-💻 Frontend Developer  
-🚀 React | JavaScript | UI Design  
+## Student Details
+Name: Harshit Singh  
+Course: B.Tech  
+Subject: React Front-End Development  
 
-## 🔥 Projects
-- Portfolio App
-- Weather App
+---
+
+## 📁 Projects Included
+
+### 🔹 React Portfolio Project
+A full-featured React application including:
+
+- Counter
 - Calculator
+- Login & Registration
+- Palindrome Checker
+- Prime & Armstrong Checker
+- Weather App (API)
+- Maps Integration
+- Theme Switcher
+
+---
+
+## 🔗 GitHub Project
+[Open Portfolio Folder](./react-portfolio)
+
+---
+
+## 🛠 Tech Stack
+- React JS
+- JavaScript
+- CSS
+- APIs
+
+---
+
+## 👨‍💻 Author
+Harshit Singh
 
 ## 📫 Connect with me
 - GitHub: https://github.com/HarshitSingh0203

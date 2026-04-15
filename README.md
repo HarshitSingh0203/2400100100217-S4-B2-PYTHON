@@ -23,8 +23,7 @@ A full-featured React application including:
 
 ---
 
-## 🔗 GitHub Project
-[Open Portfolio Folder](./react-portfolio)
+
 
 ---
 
